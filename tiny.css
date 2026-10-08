@@ -1,0 +1,105 @@
+/* EZICARGO Trade Lite · the small version: tighter spacing, smaller images and cards, more on one screen */
+#app,.ft{zoom:.86}.hdr{zoom:.88}.tabs{zoom:.9}.sheet,.modal,.pbar,.assist,.drawer,.tour-card{zoom:.9}
+body{font-size:14px}
+.wrap{padding-inline:12px!important}
+/* header */
+.hdr-row{padding-block:6px!important;gap:6px!important}
+.logo img{width:32px!important;height:25px!important}.logo b{font-size:15px!important}.logo small{font-size:7px!important}
+.search{height:38px!important;border-width:1.5px!important;border-radius:10px!important}
+.search select{font-size:12px!important;max-width:96px}.search input{font-size:13.5px!important;padding:0 10px!important}
+.hdr-act .hbtn{width:34px!important;min-width:34px!important;height:34px!important}.hbtn svg{width:19px!important;height:19px!important}
+/* sections */
+.sec{margin-top:18px!important}.hsec{margin-top:16px!important}
+.sec.band{padding:12px!important;border-radius:16px!important}
+.sec-h{margin-bottom:8px!important;gap:8px!important}.sec-h h2,.hsec h2{font-size:16.5px!important}
+.sec-h h2::after,.hsec h2::after{height:2px!important;width:28px!important;margin-top:4px!important}
+.sec-sub{font-size:12.5px!important}
+.phead{margin-bottom:10px!important}.phead h1{font-size:20px!important}.phead p{font-size:13px}
+.crumbs{font-size:12px!important;margin-bottom:6px!important}
+/* home card */
+.hh{padding:14px 14px 84px!important;border-radius:0 0 20px 20px!important}
+.hh-av,.hh-gear{width:34px!important;height:34px!important}.hh-hi b{font-size:15px!important}.hh-hi small{font-size:11.5px!important}
+.hh-in{gap:8px!important}.hh-v{font-size:28px!important}
+.hh-chips a{font-size:11.5px!important;padding:4px 9px!important}
+.hh-add,.hh-sec{height:36px!important;font-size:13.5px!important;padding:0 14px!important}
+.hh-scene{height:46px!important;bottom:40px!important}.sc-ship{width:48px!important;height:26px!important}
+.hh-scene .sc-wh{width:40px!important;height:24px!important}.hh-scene .sc-port{width:60px!important;height:24px!important}
+.hq-card{margin-top:-40px!important;padding:10px 4px!important;border-radius:16px!important}
+.hq-o{--rs:48px!important;font-size:11.5px!important;gap:5px!important}
+.orb{--rs:52px!important}.orb b{font-size:11.5px!important}.orb-grid{gap:12px 4px!important}
+/* shortcut grids become one swipe row */
+.hq-grid{display:grid!important;grid-auto-flow:column;grid-auto-columns:76px;grid-template-columns:none!important;overflow-x:auto;scrollbar-width:none;gap:4px!important;padding-bottom:2px}
+.hq-grid::-webkit-scrollbar{display:none}
+/* info tiles side by side */
+.hinfo{grid-template-columns:1fr 1fr!important;gap:8px!important;margin-top:12px!important}
+.hi-t{padding:9px 10px!important;border-radius:14px!important;gap:8px!important}
+.hi-t .hic{width:34px!important;height:34px!important;border-radius:10px!important}.hi-t .hic svg{width:20px;height:20px}
+.hi-t b{font-size:12.5px!important;line-height:1.25}.hi-t small{font-size:11px!important}
+/* banners */
+.bn{margin-top:14px!important}
+.bn-c{min-height:118px!important;padding:12px 14px!important;grid-template-columns:1fr 78px!important;border-radius:16px!important}
+.bn-c h3,.bn-c b.bn-t,.bn-c strong{font-size:16px!important}.bn-k{font-size:10px!important}
+.bn-prod{width:72px!important;height:72px!important}.bn-art svg{max-width:78px;max-height:78px}
+.bn-go{padding:6px 12px!important;font-size:12.5px!important}
+/* activity + keep shopping */
+.act-r{padding:8px 12px!important}.act-ic{width:28px!important;height:28px!important}.act-m b{font-size:12.5px!important}.act-a{font-size:12.5px!important}
+.keep{grid-auto-columns:72px!important}.keep-i b{font-size:12px!important}
+/* products: three small cards per row on phones */
+.pgrid{grid-template-columns:repeat(auto-fill,minmax(150px,1fr))!important;gap:8px!important}
+@media (max-width:520px){.pgrid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:6px!important}}
+.pc{border-radius:12px!important}
+.pc .bd{padding:6px 7px 8px!important;gap:3px!important}
+.pc .nm{font-size:11.5px!important;min-height:30px!important;line-height:1.3!important}
+.pc .pr b{font-size:13.5px!important}.pc .pr small{font-size:10.5px!important}
+.pc .fm{font-size:10.5px!important}
+.pc .im .pill{transform:scale(.82);transform-origin:left top}
+.pc .qa{width:28px!important;height:28px!important;right:5px!important;top:5px!important}
+@media (max-width:520px){.pc .pr small,.pc .bd>.row .sample{display:none}.pc .bd>.row .pill{padding:1px 6px;font-size:10px}.pc .fm svg,.pc .fm .vtick{width:11px;height:11px}.pc .im .pill{font-size:10px;padding:2px 6px}}
+/* deals */
+.hscroll{grid-auto-columns:200px!important;gap:10px!important}
+.deal .im{aspect-ratio:16/8!important}
+.deal .bd{padding:10px!important;gap:6px!important}.deal .nm{font-size:12.5px!important;min-height:32px!important}
+/* chips and buttons */
+.chip{padding:4px 10px!important;font-size:12px!important}
+.chips{gap:5px!important}
+.btn{height:38px;font-size:13.5px;padding:0 14px;border-radius:10px}
+.btn-lg{height:44px!important;font-size:14.5px!important}
+.btn-sm{height:32px!important;font-size:12.5px!important}
+/* product page */
+.gal .main{max-width:250px;margin-inline:auto;width:100%}
+.gal .ths{justify-content:center}.gal .ths button{width:44px!important;height:44px!important}
+.pd{gap:12px!important}
+.pd h1{font-size:18px!important}
+.tiers div{padding:8px!important}.tiers b{font-size:16px!important}.tiers small{font-size:10.5px!important}
+.pbar .btn{height:42px!important}
+/* cards, lists, forms */
+.card.pad,.pad{padding:12px!important}
+.lrow{padding:10px 12px!important;gap:10px!important}.lrow .th{width:44px!important;height:44px!important}
+.stat{padding:10px!important}.stat b{font-size:18px!important}
+.kpi b{font-size:15px!important}
+.field input,.field select,.field textarea,input.inp,select.inp{height:40px;font-size:14px}
+.opt{padding:10px 12px!important}
+/* warehouse */
+.wh-hero-in{padding:14px!important;gap:12px!important}.wh-hero h1{font-size:21px!important}.wh-hero p{font-size:12.5px}
+.wh-stats2 b{font-size:16px!important}
+.bay{padding:10px!important}.bay-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))!important;gap:8px!important}
+@media (max-width:520px){.bay-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+.pcell{min-width:0}.pc-top{padding-inline-end:22px!important}
+.pcell{padding:9px!important;gap:6px!important}.pc-box{width:34px!important;height:30px!important}
+.pc-id b{font-size:11.5px!important}.pc-id small{font-size:11px!important}.pc-meta,.pc-free small{font-size:10.5px!important}
+.pc-acts{gap:4px!important}.pc-acts button{padding:5px 2px!important;font-size:10.5px!important}
+.pcell-add{min-height:110px!important}
+/* bottom bar */
+.tabs a{padding:6px 0 5px!important;font-size:10.5px!important}
+.tab-svc span{width:44px!important;height:44px!important}
+
+.bn-tx{gap:4px!important}.bn-tx b{font-size:16.5px!important}.bn-tx small{font-size:12px!important}
+.bn-track{border-radius:16px!important}
+/* category chips on one swipe line */
+#app .chips{flex-wrap:nowrap!important;overflow-x:auto;scrollbar-width:none;padding-bottom:2px}
+#app .chips::-webkit-scrollbar{display:none}
+#app .chips .chip{flex-shrink:0}
+.hdr .logo small{display:none}
+.hscroll{grid-auto-columns:224px!important}
+.ladder{gap:4px!important}.ladder span{min-width:0;padding:4px 5px!important;font-size:10px!important}.ladder span b{font-size:12px!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.deal .bd .between{gap:6px}
